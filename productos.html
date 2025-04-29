@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Cosmos Life</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="productos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="contenedor-logo">
+                <img src="img/Mesa de trabajo 6.webp" alt="Cosmos Life" class="logo-pequeno">
+                <a href="index.html"><span class="texto-logo">Cosmos Life</span></a>
+            </div>
+            <div class="busqueda-nav">
+                <input type="text" placeholder="Buscar productos...">
+                <i class="fas fa-search icono-busqueda"></i>
+            </div>
+            <ul class="enlaces-nav">
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#cuenta" class="boton-cuenta">CUENTA</a></li>
+            </ul>
+            <button class="alternar-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="productos-main">
+        <section class="filtros-productos">
+            <h2>Filtros</h2>
+            <div class="categoria-filtro">
+                <h3>Categorías</h3>
+                <ul>
+                    <li><label><input type="checkbox"> Facial</label></li>
+                    <li><label><input type="checkbox"> Corporal</label></li>
+                    <li><label><input type="checkbox"> Maquillaje</label></li>
+                    <li><label><input type="checkbox"> Accesorios</label></li>
+                </ul>
+            </div>
+            <div class="precio-filtro">
+                <h3>Precio</h3>
+                <input type="range" min="0" max="100" value="50">
+                <div class="rango-precio">
+                    <span>$0</span>
+                    <span>$100</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-productos">
+            <div class="producto-card">
+                <div class="producto-favorito">
+                    <i class="far fa-heart"></i>
+                </div>
+                <img src="img/producto1.jpg" alt="Bruma Calma">
+                <div class="producto-info">
+                    <a href="producto-descripcion.html" class="producto-titulo">
+                        <h3>Bruma "Calma"</h3>
+                    </a>
+                    <p class="producto-descripcion">Paz interior y serenidad</p>
+                    <div class="producto-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="producto-precio">$65.000</p>
+                    <button class="agregar-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="producto-favorito">
+                    <i class="far fa-heart"></i>
+                </div>
+                <img src="img/pruducto2.jpg" alt="Sérum Confianza">
+                <div class="producto-info">
+                    <a href="producto-descripcion.html" class="producto-titulo">
+                        <h3>Sérum "Confianza"</h3>
+                    </a>
+                    <p class="producto-descripcion">Seguridad y claridad mental</p>
+                    <div class="producto-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="producto-precio">$85.000</p>
+                    <button class="agregar-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="producto-favorito">
+                    <i class="far fa-heart"></i>
+                </div>
+                <img src="img/producto3 .jpg" alt="Bálsamo Amor Propio">
+                <div class="producto-info">
+                    <a href="producto-descripcion.html" class="producto-titulo">
+                        <h3>Bálsamo "Amor Propio"</h3>
+                    </a>
+                    <p class="producto-descripcion">Ternura y autocompasión</p>
+                    <div class="producto-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="producto-precio">$55.000</p>
+                    <button class="agregar-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="producto-favorito">
+                    <i class="far fa-heart"></i>
+                </div>
+                <img src="img/producto4.jpg" alt="Gel Renacer">
+                <div class="producto-info">
+                    <a href="producto-descripcion.html" class="producto-titulo">
+                        <h3>Gel "Renacer"</h3>
+                    </a>
+                    <p class="producto-descripcion">Renovación y frescura</p>
+                    <div class="producto-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="producto-precio">$48.000</p>
+                    <button class="agregar-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="producto-favorito">
+                    <i class="far fa-heart"></i>
+                </div>
+                <img src="img/producto5.jpg" alt="Mascarilla Fuerza">
+                <div class="producto-info">
+                    <a href="producto-descripcion.html" class="producto-titulo">
+                        <h3>Mascarilla "Fuerza"</h3>
+                    </a>
+                    <p class="producto-descripcion">Empoderamiento y vitalidad</p>
+                    <div class="producto-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="producto-precio">$72.000</p>
+                    <button class="agregar-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="producto-favorito">
+                    <i class="far fa-heart"></i>
+                </div>
+                <img src="img/producto6.jpg"alt="Exfoliante Libertad">
+                <div class="producto-info">
+                    <a href="producto-descripcion.html" class="producto-titulo">
+                        <h3>Exfoliante "Libertad"</h3>
+                    </a>
+                    <p class="producto-descripcion">Liberación y fluidez</p>
+                    <div class="producto-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="producto-precio">$58.000</p>
+                    <button class="agregar-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="producto-favorito">
+                    <i class="far fa-heart"></i>
+                </div>
+                <img src="img/producto7.jpg" alt="Tónico Equilibrio">
+                <div class="producto-info">
+                    <a href="producto-descripcion.html" class="producto-titulo">
+                        <h3>Tónico "Equilibrio"</h3>
+                    </a>
+                    <p class="producto-descripcion">Armonía interior</p>
+                    <div class="producto-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="producto-precio">$45.000</p>
+                    <button class="agregar-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="producto-favorito">
+                    <i class="far fa-heart"></i>
+                </div>
+                <img src="img/producto8.jpg" alt="Crema Esperanza">
+                <div class="producto-info">
+                    <a href="producto-descripcion.html" class="producto-titulo">
+                        <h3>Crema "Esperanza"</h3>
+                    </a>
+                    <p class="producto-descripcion">Optimismo y regeneración</p>
+                    <div class="producto-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="producto-precio">$78.000</p>
+                    <button class="agregar-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="producto-favorito">
+                    <i class="far fa-heart"></i>
+                </div>
+                <img src="img/producto9.jpg" alt="Aceite Pasión">
+                <div class="producto-info">
+                    <a href="producto-descripcion.html" class="producto-titulo">
+                        <h3>Aceite "Pasión"</h3>
+                    </a>
+                    <p class="producto-descripcion">Sensualidad y creatividad</p>
+                    <div class="producto-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="producto-precio">$92.000</p>
+                    <button class="agregar-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="producto-favorito">
+                    <i class="far fa-heart"></i>
+                </div>
+                <img src="img/producto10.jpg" alt="Roll-on Claridad">
+                <div class="producto-info">
+                    <a href="producto-descripcion.html" class="producto-titulo">
+                        <h3>Roll-on "Claridad"</h3>
+                    </a>
+                    <p class="producto-descripcion">Conexión mental y foco</p>
+                    <div class="producto-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="producto-precio">$42.000</p>
+                    <button class="agregar-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenido-pie">
+            <div class="columna-pie">
+                <h2 class="logo-pie">COSMOS<br>LIFE</h2>
+            </div>
+            
+            <div class="columna-pie">
+                <h3 class="titulo-seccion">ENLACES<br>RÁPIDOS</h3>
+                <ul class="enlaces-rapidos">
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="columna-pie">
+                <h3 class="titulo-seccion">SÍGUENOS</h3>
+                <div class="redes-sociales">
+                    <a href="#" class="red-social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="red-social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="red-social"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="columna-pie newsletter">
+                <h3 class="titulo-seccion">NEWSLETTER</h3>
+                <p class="newsletter-descripcion">
+                    Suscríbete para recibir consejos de belleza, ofertas exclusivas y las últimas tendencias en cosmética natural.
+                </p>
+                <form class="formulario-newsletter">
+                    <input type="email" placeholder="Tu correo electrónico" class="input-newsletter">
+                    <button type="submit" class="boton-newsletter">Suscribirse</button>
+                </form>
+                <div class="tips-belleza">
+                    <h4 class="titulo-tips">Tips de Belleza</h4>
+                    <ul class="lista-tips">
+                        <li>✨ Hidratación diaria para una piel radiante</li>
+                        <li>✨ Rutina de noche para regenerar la piel</li>
+                        <li>✨ Protección solar todo el año</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
