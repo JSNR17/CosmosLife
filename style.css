@@ -1308,6 +1308,7 @@ nav {
     }
 }
 
+/* Footer */
 footer {
     background: linear-gradient(135deg, var(--color-primario) 0%, #8033FF 100%);
     color: white;
@@ -1524,19 +1525,15 @@ footer::before {
 
     .caracteristica-producto.izquierda,
     .caracteristica-producto.derecha {
-        grid-column: auto;
+        grid-column: 1 / -1;
     }
 
-    .caracteristica-producto.izquierda,
     .caracteristica-producto.derecha:nth-of-type(2) {
         grid-row: auto;
     }
 
     .imagen-caracteristica {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        
+        height: 200px;
     }
 
     .cuadricula-productos {
@@ -1751,45 +1748,7 @@ footer::before {
 .idea-button:hover::before {
     left: 100%;
 }
-.video-section {
-    text-align: center;
-    padding: 60px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .video-section h2 {
-    text-align: center;
-    color: var(--color-primario);
-    margin-bottom: 4rem;
-    font-size: 2.5rem;
-    position: relative;
-    z-index: 1;
-    font-family: var(--fuente-titulos);
-    font-weight: 600;
-    letter-spacing: 1px;
-  }
-  
-  .video-container {
-    width: 500px;
-    max-width: 100%;
-    height: 300px;
-    max-height: 100%;
-    background-color: #d9d9d9;
-    border-radius: 16px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .video-container video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+
   
 .novedades {
     padding: 6rem 2rem;

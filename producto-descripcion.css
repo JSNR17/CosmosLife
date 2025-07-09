@@ -1,3 +1,4 @@
+
 .producto-detalle {
     max-width: 1200px;
     margin: 120px auto 50px;
@@ -172,6 +173,8 @@
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+
+/* Animaciones */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -194,6 +197,7 @@
     }
 }
 
+/* Responsive */
 @media (max-width: 992px) {
     .producto-container {
         gap: 3rem;
@@ -302,6 +306,7 @@
     }
 }
 
+/* Sección de Servicios */
 .servicios {
     max-width: 1200px;
     margin: 6rem auto;
@@ -456,6 +461,7 @@
     box-shadow: 0 5px 15px rgba(138, 43, 226, 0.3);
 }
 
+/* Media queries actualizados */
 @media (max-width: 992px) {
     .servicios-container {
         gap: 1.5rem;

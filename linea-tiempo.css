@@ -1,3 +1,4 @@
+/* Estilos para la línea de tiempo */
 .historia {
     padding: 6rem 2rem;
     background: linear-gradient(135deg, var(--color-secundario) 0%, #f8f4ff 100%);
@@ -142,6 +143,7 @@
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* Media Queries para la línea de tiempo */
 @media (max-width: 768px) {
     .linea-tiempo::before {
         left: 30px;

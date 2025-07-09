@@ -159,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* Media Queries para la línea de tiempo */
 @media (max-width: 768px) {
     .linea-tiempo::before {
         left: 30px;
@@ -378,6 +379,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* Estilos para el contenedor de texto del hero */
 .contenedor-texto-hero {
     position: relative;
     z-index: 3;
@@ -534,6 +536,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* Estilos para el header transparente */
 header {
     position: fixed;
     top: 0;
@@ -573,6 +576,7 @@ header.scrolled .alternar-menu span {
     background: white;
 }
 
+/* Equipo */
 .equipo {
     padding: 6rem 2rem;
     background: white;
@@ -637,7 +641,7 @@ header.scrolled .alternar-menu span {
 .imagen-equipo img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover; /* Hace que la imagen rellene bien el contenedor sin deformarse */
     display: block;
 }
 
@@ -787,6 +791,7 @@ header.scrolled .alternar-menu span {
     }
 }
 
+/* Contacto */
 .contacto {
     padding: 6rem 2rem;
     background: white;
@@ -965,6 +970,7 @@ header.scrolled .alternar-menu span {
     }
 }
 
+/* Misión y Visión */
 .mision-vision {
     padding: 6rem 2rem;
     background: white;
@@ -1025,6 +1031,7 @@ header.scrolled .alternar-menu span {
     text-align: justify;
 }
 
+/* Valores */
 .valores {
     padding: 6rem 2rem;
     background: linear-gradient(135deg, var(--color-secundario) 0%, #f8f4ff 100%);
@@ -1103,6 +1110,7 @@ header.scrolled .alternar-menu span {
     line-height: 1.6;
 }
 
+/* Media Queries para Misión, Visión y Valores */
 @media (max-width: 992px) {
     .contenedor-mision-vision {
         grid-template-columns: 1fr;
@@ -1135,6 +1143,7 @@ header.scrolled .alternar-menu span {
     }
 }
 
+/* Estilos para el mapa ficticio */
 .mapa-ficticio {
     width: 100%;
     height: 100%;
